@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivityKu2_2718">
+
+    <TextView
+
+        android:id="@+id/textViewUser"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="Aguatinus luis lung"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEnd0f="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTop0f="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SINOPSIS Karya Mhs.Universitas AMIKOM Yogyakarta"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="414dp"
+        android:layout_height="236dp"
+        app:
+        app:layout_constraintBottom_toBottom0f="parent"
+        app:layout_constraintEnd_toEnd0f="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTop0f="parent"
+        app:srcCompat="@drawable/pic"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <Button
+
+        android:id="@+id/button"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="40dp"
+
+        android:text="Click To Enter"
+
+        app:layout_constraintEnd_toEnd0f="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTop0f="parent"
+
+        tools:layout_editor_absoluteY="197dp" />
+
+    <Button
+
+        android:id="@+id/button2"
+
+        android:layout_width="101dp"
+
+        android:layout_height="42dp"
+
+        android:backgroundTint="#45C84B"
+
+        android:text="Book Kids"
+
+        android:textColorHighlight="#4DC652"
+
+        android:textColorLink="#42C547"
+
+        tools:layout_editor_absoluteX="0dp"
+
+        tools:layout_editor_absoluteY="282dp"
+
+        tools:layout_editor_absolutex="31dp" /><![CDATA[
+
+
+
+
+
+
+
+    20sp"
+
+    android:textStyle="bold"
+
+    app:layout_constraintEnd_toEnd0f="parent"
+
+    app:layout_constraintHorizontal_bias="0.1" app:layout_constraintStart_toStartOf="parent" tools:layout_editor_absoluteY="429dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    4dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <Button
+
+        android:id="@+id/button3"
+        android:layout_width="89dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="320dp"
+        android:backgroundTint="#E91E63"
+
+        android:text="Reading"
+
+        app:layout_constraintEnd_toEnd0f="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+
+        android:id="@+id/button4"
+
+        android:layout_width="97dp"
+        android:layout_height="44dp"
+
+        android:backgroundTint="#3F51B5"
+
+        android:text="Space"
+
+        tools:layout_editor_absoluteX="116dp"
+
+        tools:layout_editor_absoluteY="282dp"
+        tools:layout_editor_absolutex="266dp" />
+
+    <Button
+
+        android:id="@+id/button5"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="#F44336"
+
+        android:text="More"
+
+        tools:layout_editor_absoluteX="222dp"
+
+        tools:layout_editor_absoluteY="282dp"
+
+        tools:layout_editor_absolutex="31dp" />
+
+    <TextView
+
+        android:id="@+id/textview12"
+
+        android:layout_width="129dp"
+
+        android:layout_height="25dp"
+
+        android:text="RECOMMEND"
+
+        android:textSize="20dp"
+
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="12dp"
+
+        tools:layout_editor_absoluteY="328dp"
+        tools:layout_editor_absolutex="2dp" />
+
+    <ImageView
+
+        android:id="@+id/imageView2"
+
+        android:layout_width="76dp"
+        android:layout_height="79dp"
+
+        android:text="RECOMENDED"
+        android:textsize="45dp"
+        android:textstyle="bold
+"
+
+
+        app:srcCompat="@drawable/book2"
+
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="364dp"
+        tools:layout_editor_absolutex="28dp" />
+
+    <ImageView
+
+        android:id="@+id/imageView3"
+
+        android:layout_width="77dp"
+
+        android:layout_height="85dp"
+
+        app:srcCompat="@drawable/book4"
+
+        tools:layout_editor_absoluteX="12dp"
+
+        tools:layout_editor_absoluteY="454dp"
+        tools:layout_editor_absolutex="25dp" />
+    /
+
+    >
+
+    <ImageView
+
+        android:id="@+id/imageView2"
+
+        android:layout_width="74dp"
+
+        android:layout_height="87dp"
+
+        android:src="@drawable/book1"
+
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="549dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
