@@ -13,10 +13,22 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".LoginActivitiy"
+            android:name=".bookkidActivity2718"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity4tes"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivitiy"
             android:exported="false" />
         <activity
             android:name=".HomeActivityKu2_2718"
